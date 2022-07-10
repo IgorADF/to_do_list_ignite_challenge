@@ -27,6 +27,9 @@ module.exports = {
           dark_purple: "#5E60CE",
         },
       },
+      backgroundImage: {
+        'header':`url("./assets/Logo.svg")`,
+      }
     },
   },
   plugins: [],

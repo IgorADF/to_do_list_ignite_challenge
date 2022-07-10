@@ -10,3 +10,10 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+@media (max-width: 767.5px)
+{
+  html {
+    font-size: 14px
+  }
+}

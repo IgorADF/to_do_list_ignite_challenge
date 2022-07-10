@@ -32,7 +32,7 @@ export function App() {
     <div className="h-[100vh] w-[100vw] bg-app-main flex flex-col items-center">
       <Header />
 
-      <div className="w-[736px] mt-[-27px] z-10">
+      <div className="px-4 w-full mt-[-27px] z-10 md:w-[736px] md:p-0">
         <AddTask onAddNewTask={onAddNewTask} />
 
         <DisplayTasks tasks={tasks} onRemoveTask={onRemoveTask} onCompleteTask={onCompleteTask} />

@@ -14,7 +14,7 @@ export function DisplayTasks(props: DisplayTasksProps) {
 
     return (
         <div className="w-full flex flex-col gap-6 mt-[64px] mb-6">
-            <div className="w-full flex justify-between">
+            <div className="w-full flex justify-between gap-4 flex-wrap">
                 <div className="flex gap-2 font-bold items-center">
                     <span className="text-app-blue">Tarefas criadas</span>
 
