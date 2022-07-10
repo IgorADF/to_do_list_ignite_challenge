@@ -26,12 +26,15 @@ export function CreatedTask({ task, onRemoveTask, onCompleteTask }: TaskProps) {
                 {task.description}
             </span>
 
-            <img
-                src={trashcanImg}
-                alt='Lixeira'
-                className="w-[14px] h-[15px] cursor-pointer"
+            <button
                 onClick={() => onRemoveTask(task.key)}
-            />
+                className="p-1 w-[24px] h-[24px] flex justify-center items-center"
+            >
+                <img
+                    src={trashcanImg}
+                    alt='Lixeira'
+                />
+            </button>
         </div>
     )
 }

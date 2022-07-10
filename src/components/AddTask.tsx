@@ -10,6 +10,10 @@ export function AddTask(props: AddTaskProps) {
     const [newTaskDescription, setNewTaskDescription] = useState('')
 
     function handleOnClickAddTask() {
+        if (!newTaskDescription || newTaskDescription == '') {
+            return
+        }
+
         const newTask = {
             description: newTaskDescription,
             isCompleted: false,
